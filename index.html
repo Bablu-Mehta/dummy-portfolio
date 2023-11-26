@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/015aca2f7e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo">Bablu</h1>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Developer</p>
+          <h1>
+            Hi I'm <span>Bablu</span> <br />
+            Mehta from Haryana
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------About-Section------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              voluptatibus libero necessitatibus reprehenderit, alias molestias
+              dolore tenetur nihil! Quia rerum, officiis accusantium qui
+              eligendi nihil porro vel tenetur laborum cupiditate magnam
+              molestias ipsam vitae aliquam?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="exprience">
+              <ul>
+                <li>
+                  <span>Sep-2023 - Present</span> <br />
+                  Stack Softwares
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>2018</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <span>2022</span> <br />
+                  Panipat Institute
+                </li>
+                <li>
+                  <span>UI/UX</span> <br />
+                  Lorem ipsum dolor sit.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------services-section----------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              obcaecati esse numquam quidem ducimus, natus animi doloribus.
+              Nesciunt, dicta? Iure!
+            </p>
+            <a href="#">learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-shield"></i>
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              obcaecati esse numquam quidem ducimus, natus animi doloribus.
+              Nesciunt, dicta? Iure!
+            </p>
+            <a href="#">learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              obcaecati esse numquam quidem ducimus, natus animi doloribus.
+              Nesciunt, dicta? Iure!
+            </p>
+            <a href="#">learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------portfolio---------- -->
+    <div id="portfolio">
+      <div class="conatiner">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>SOcial media app</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                veritatis?
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-2.png" alt="" />
+            <div class="layer">
+                <h3>SOcial media app</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                  veritatis?
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+          <div class="work">
+            <img src="./images/work-3.png" alt="" />
+            <div class="layer">
+                <h3>SOcial media app</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                  veritatis?
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+      </div>
+    </div>
+
+
+    <!-- ------------------contact-section----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="'submit-to-google-sheet'">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Bablu Mehta</p>
+        </div>
+    </div>
+    <script>
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents = document.getElementsByClassName("tab-contents");
+  
+        function opentab(data) {
+          for (tabLink of tabLinks) {
+            tabLink.classList.remove("active-link");
+          }
+  
+          for (tabContent of tabContents) {
+            tabContent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(data).classList.add("active-tab");
+        }
+      </script>
+      <script>
+        let sideMenu = document.getElementById('sideMenu');
+        function openMenu(){
+            sideMenu.style.right = '0';
+        }
+
+        function closeMenu(){
+            sideMenu.style.right = '-200px';
+        }
+      </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx-AmgaCoYv93Yuo_TuX2UvFGrHPMYXIE8r4XXyMTsJZmOBCIVhTEHOO4YnkNsjNEaIWQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
